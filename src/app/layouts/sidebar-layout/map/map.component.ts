@@ -14,7 +14,9 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+     throw new Error('Method not implemented.');
+  }
 
   ngAfterViewInit() {
     const initialState = { lng: 12.354722, lat: 7.369722, zoom: 6 };
